@@ -1,0 +1,16 @@
+Процесс установки окружения
+Нужные библиотеки:
+BOOST
+sudo apt-get install libboost-all-dev
+OpenSSL
+sudo apt-get install libssl-dev
+curl
+sudo apt-get install libcurl4-openssl-dev
+
+установить cmake версии 3.20
+wget https://github.com/Kitware/CMake/releases/download/v3.20.1/cmake-3.20.1.tar.gz
+tar -xf cmake-3.20.1.tar.gz
+cd cmake-3.20.1
+./bootstrap
+make
+make install
