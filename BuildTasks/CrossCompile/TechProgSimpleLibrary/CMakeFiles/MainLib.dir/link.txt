@@ -1,1 +1,0 @@
-/home/pushind/Downloads/gcc-linaro-7.5.0-2019.12-i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ -rdynamic CMakeFiles/MainLib.dir/main_lib.cpp.o -o bin/MainLib  -Wl,-rpath,/home/pushind/private/homework/prom_prog/BuildTasks/CrossCompile/TechProgSimpleLibrary/lib: lib/libbuffer.so 
