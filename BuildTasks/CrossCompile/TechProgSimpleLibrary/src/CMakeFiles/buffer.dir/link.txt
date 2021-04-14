@@ -1,1 +1,0 @@
-/home/pushind/Downloads/gcc-linaro-7.5.0-2019.12-i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ -fPIC -shared -Wl,-soname,libbuffer.so -o ../lib/libbuffer.so CMakeFiles/buffer.dir/buffer.cpp.o 

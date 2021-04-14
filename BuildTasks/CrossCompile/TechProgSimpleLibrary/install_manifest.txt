@@ -1,2 +1,0 @@
-/home/pushind/private/bin/Main
-/home/pushind/private/bin/MainLib
