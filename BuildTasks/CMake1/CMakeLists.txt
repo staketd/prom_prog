@@ -8,8 +8,8 @@ include_directories(.)
 find_package(GTest)
 
 add_custom_command(
-        OUTPUT A/index.hpp
-        COMMAND python3 A/preparing.py
+        OUTPUT ${CMAKE_CURRENT_SOURCE_DIR}/A/index.hpp
+        COMMAND python3 ${CMAKE_BINARY_DIR}/A/preparing.py
 )
 
 include_directories(${GTEST_INCLUDE_DIRS})
