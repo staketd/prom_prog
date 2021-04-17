@@ -1,0 +1,9 @@
+plugins {
+    id 'cpp-application'
+}
+
+application {
+    binaries.configureEach {
+        linkTask.get().linkerArgs.add("-lpthread")
+    }
+}

@@ -1,0 +1,16 @@
+plugins {
+    id 'cpp-application'
+}
+
+//model {
+//    toolChains {
+//        gccArm(Gcc) {
+//            target('arm') {
+//                path '/home/pushind/Downloads/gcc-linaro-7.5.0-2019.12-i686_arm-linux-gnueabihf/bin'
+//                cppCompiler.withArguments { args ->
+//                    args << "-I/home/pushind/Downloads/gcc-linaro-7.5.0-2019.12-i686_arm-linux-gnueabihf/include"
+//                }
+//            }
+//        }
+//    }
+//}

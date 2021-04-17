@@ -1,0 +1,8 @@
+plugins {
+	id 'cpp-application'
+}
+
+task copyTask(type: Copy) {
+	from 'data/.'
+	into 'build/install/main/debug/data'
+}

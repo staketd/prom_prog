@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AbstractFactory" />
+            <option value="$PROJECT_DIR$/AbstractFactory/cpp-source" />
+            <option value="$PROJECT_DIR$/AbstractFactory/cpp-source/lib" />
+            <option value="$PROJECT_DIR$/AbstractFactory/cpp-source/main" />
+            <option value="$PROJECT_DIR$/AbstractFactory/cpp-source/main_serializers" />
+            <option value="$PROJECT_DIR$/Adapter" />
+            <option value="$PROJECT_DIR$/Adapter/cpp-source" />
+            <option value="$PROJECT_DIR$/Bridge" />
+            <option value="$PROJECT_DIR$/Bridge/cpp-source" />
+            <option value="$PROJECT_DIR$/Builder" />
+            <option value="$PROJECT_DIR$/Builder/cpp-source" />
+            <option value="$PROJECT_DIR$/Builder/cpp-source/lib" />
+            <option value="$PROJECT_DIR$/Builder/cpp-source/lulkek" />
+            <option value="$PROJECT_DIR$/ChainResponsibility" />
+            <option value="$PROJECT_DIR$/ChainResponsibility/cpp-source" />
+            <option value="$PROJECT_DIR$/Command" />
+            <option value="$PROJECT_DIR$/Command/cpp-source" />
+            <option value="$PROJECT_DIR$/Composite" />
+            <option value="$PROJECT_DIR$/Composite/cpp-source" />
+            <option value="$PROJECT_DIR$/FactoryMethod" />
+            <option value="$PROJECT_DIR$/FactoryMethod/cpp-source" />
+            <option value="$PROJECT_DIR$/Mediator" />
+            <option value="$PROJECT_DIR$/Mediator/cpp-source" />
+            <option value="$PROJECT_DIR$/Memento" />
+            <option value="$PROJECT_DIR$/Memento/cpp-source" />
+            <option value="$PROJECT_DIR$/Observer" />
+            <option value="$PROJECT_DIR$/Observer/cpp-source" />
+            <option value="$PROJECT_DIR$/Prototype" />
+            <option value="$PROJECT_DIR$/Prototype/cpp-source" />
+            <option value="$PROJECT_DIR$/State" />
+            <option value="$PROJECT_DIR$/State/cpp-source" />
+            <option value="$PROJECT_DIR$/Strategy" />
+            <option value="$PROJECT_DIR$/Strategy/cpp-source" />
+            <option value="$PROJECT_DIR$/Visitor" />
+            <option value="$PROJECT_DIR$/Visitor/cpp-source" />
+            <option value="$PROJECT_DIR$/test" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
