@@ -4,5 +4,7 @@ plugins {
 
 task copyTask(type: Copy) {
 	from 'data/.'
-	into 'build/install/main/debug/data'
+	into "${buildDir}/install/main/debug/data"
 }
+
+build.finalizedBy(copyTask)

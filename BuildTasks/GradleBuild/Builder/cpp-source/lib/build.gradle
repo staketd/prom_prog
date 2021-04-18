@@ -3,5 +3,5 @@ plugins {
 }
 
 library {
-    linkage = [Linkage.STATIC, Linkage.SHARED]
+    linkage = [Linkage.STATIC]
 }

@@ -1,16 +1,25 @@
-plugins {
-    id 'cpp-application'
-}
+//plugins {
+//    id 'cpp-application'
+//}
 
-//model {
+apply plugin: 'cpp'
+
+model {
+    platforms {
+        ARM {
+            architecture "arm"
+        }
+    }
+    components {
+        mainn(NativeExecutableSpec) {
+        }
+    }
 //    toolChains {
-//        gccArm(Gcc) {
-//            target('arm') {
+//        gcc(Gcc) {
+//            eachPlatform { tools ->
 //                path '/home/pushind/Downloads/gcc-linaro-7.5.0-2019.12-i686_arm-linux-gnueabihf/bin'
-//                cppCompiler.withArguments { args ->
-//                    args << "-I/home/pushind/Downloads/gcc-linaro-7.5.0-2019.12-i686_arm-linux-gnueabihf/include"
-//                }
+//                tools.cppCompiler.executable = 'arm-linux-gnueabihf-g++'
 //            }
 //        }
 //    }
-//}
+}

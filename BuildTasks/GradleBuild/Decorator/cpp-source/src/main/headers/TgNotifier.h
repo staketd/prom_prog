@@ -5,8 +5,8 @@
 #pragma once
 
 #include <DecoratorNotifier.h>
-#include <tgbot/Bot.h>
-#include <inicpp/inicpp.h>
+#include <Bot.h>
+#include <inicpp.h>
 
 class TgNotifier : public DecoratorNotifier {
  public:

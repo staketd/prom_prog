@@ -5,8 +5,8 @@
 #pragma once
 
 #include <DecoratorNotifier.h>
-#include <inicpp/section.h>
-#include <vmime/vmime.hpp>
+#include <section.h>
+#include <vmime.hpp>
 
 class EmailNotifier : public DecoratorNotifier {
  public:
